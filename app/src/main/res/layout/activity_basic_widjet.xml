@@ -19,4 +19,16 @@
         android:text="한 줄 입력 받기"
         android:id="@+id/edit1"
         android:inputType="text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="키보드 숨기기"
+        android:id="@+id/hideBtn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="키보드 열기"
+        android:id="@+id/showBtn"/>
+
 </LinearLayout>
